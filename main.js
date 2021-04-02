@@ -1,6 +1,9 @@
 (() => {
-  let polkamonList=document.getElementsByClassName('personalCollectionCardstyle__CardContainer-sc-61434w-0 gxEUbp');
-  let reg=/(Chance ~)(.*)(%)/;
+  if (typeof polkamonList == 'undefined') var polkamonList
+  if (typeof reg == 'undefined') var reg
+   
+  polkamonList=document.getElementsByClassName('personalCollectionCardstyle__CardContainer-sc-61434w-0 gxEUbp');
+  reg=/(Chance ~)(.*)(%)/;
 
   for(let polkamon of polkamonList){
     let proba=1;
