@@ -8,7 +8,8 @@ To be clear:
 
 To make it simple to use I have created a bookmarklet containing exactly the code once compressed. You can save this link as a bookmarks and click on it when you're on the page of your collection. You can also execute the code directly from the developper console (F12) if you wish 
 
-[HERE IS THE BOOKMARKLET]((()=>{let a=document.getElementsByClassName("personalCollectionCardstyle__CardContainer-sc-61434w-0 gxEUbp");for(let b of a){let a=1,c=b.getElementsByTagName("span");for(let b of c){let c=b.textContent.match(/(Chance ~)(.*)(%)/);c&&(a*=c[2]/100)}b.getElementsByClassName("personalCollectionCardstyle__DetailsText-sc-61434w-5 jYnmvc")[0].textContent=Math.round(1/a)}})(); "Add me as a bookmark and execute me on your collection page")
+[HERE IS THE BOOKMARKLET]([1] "Add me as a bookmark and execute me on your collection page")
+[1]: (()=>{let a=document.getElementsByClassName("personalCollectionCardstyle__CardContainer-sc-61434w-0 gxEUbp");for(let b of a){let a=1,c=b.getElementsByTagName("span");for(let b of c){let c=b.textContent.match(/(Chance ~)(.*)(%)/);c&&(a*=c[2]/100)}b.getElementsByClassName("personalCollectionCardstyle__DetailsText-sc-61434w-5 jYnmvc")[0].textContent=Math.round(1/a)}})();
 
 Of Course this is just something i've made to help me rapidly identify which polkamon is more likely to have some value due to his combination of rare properties. IT IS NOT A TRUE DISPLAY OF A POLKAMON'S VALUE (No one know their real value at the time of writing, anyway...)
 
