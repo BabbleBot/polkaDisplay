@@ -6,7 +6,7 @@ To be clear:
  - A blue(25% Chance), non-glittery (99% chance), Unifary (15% Chance) with a Golden Horn (20% Chance) would have a 'value' of 0.25*0.99*0.15*0.20 = 0.007425
  - The value is then inverted to highlight the rarest polkamons by having the highest value, so 0.007425 => 1/0.007425 = 135 (rounded)
 
-![Image d'exemple](https://i.ibb.co/0jRqD5C/polkamon-script.png "Exemple")
+![Image d'exemple](https://i.ibb.co/4VF3Vng/polkamon-script.png "Exemple")
 
 ---
 
