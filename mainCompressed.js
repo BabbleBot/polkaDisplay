@@ -1,1 +1,2 @@
-let polkamonList=document.getElementsByClassName("personalCollectionCardstyle__CardContainer-sc-61434w-0 gxEUbp"),reg=/(Chance ~)(.*)(%)/;for(let a of polkamonList){let b=1,c=a.getElementsByTagName("span");for(let a of c){let c=a.textContent.match(reg);c&&(b*=c[2]/100)}a.getElementsByClassName("personalCollectionCardstyle__DetailsText-sc-61434w-5 jYnmvc")[0].textContent=Math.round(1/b)}
+(()=>{let a=document.getElementsByClassName("personalCollectionCardstyle__CardContainer-sc-61434w-0 gxEUbp");for(let b of a){let a=1,c=b.getElementsByTagName("span");for(let b of c){let c=b.textContent.match(/(Chance ~)(.*)(%)/);c&&(a*=c[2]/100)}b.getElementsByClassName("personalCollectionCardstyle__DetailsText-sc-61434w-5 jYnmvc")[0].textContent=Math.round(1/a)}})();
+
