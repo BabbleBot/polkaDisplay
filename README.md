@@ -12,7 +12,7 @@ To be clear:
 
 To make it simple to use I have created a bookmarklet containing exactly the code once compressed. You can save this link as a bookmarks and click on it when you're on the page of your collection. You can also execute the code directly from the developper console (F12) if you wish.
 
-Due to Github's markdown I cannot post the bookmarklet directly here. You can find it [THERE](https://bookmarkify.it/43744)
+Due to Github's markdown I cannot post the bookmarklet directly here. You can find it [THERE](https://bookmarkify.it/43747)
 
 Of Course this is just something i've made to help me rapidly identify which polkamon is more likely to have some value due to his combination of rare properties. IT IS NOT A TRUE DISPLAY OF A POLKAMON'S VALUE (No one know their real value at the time of writing, anyway...)
 
