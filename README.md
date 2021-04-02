@@ -21,3 +21,5 @@ I obviously invite anybody and everybody to review the code to make sure i didn'
 I may, or may not, make a V2 later to:
  - Try to identify more precisely some key properties (glittery, for exemple) and give them more weight in the formula
  - Highlight the 'rare' polkamons with custom colors based on their 'value'
+
+![Image d'exemple](https://i.ibb.co/0jRqD5C/polkamon-script.png "Exemple")
