@@ -4,6 +4,7 @@
   "description": "A polkamon collection manager",
   "main": "main.js",
   "dependencies": {
+    "axios": "^0.21.1",
     "vue": "^2.6.12"
   },
   "devDependencies": {
@@ -12,9 +13,11 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^5.2.0",
+    "normalize.css": "^8.0.1",
     "postcss": "^8.2.9",
     "sass": "^1.32.8",
     "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
     "vue-loader": "^14.2.4",
     "vue-style-loader": "^4.1.3",
     "vue-template-compiler": "^2.6.12",
@@ -25,8 +28,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack serve --config config/webpack.config.js",
-    "watch": "webpack --watch --config config/webpack.config.js",
-    "dev": "npm run watch && npm run serve"
+    "watch": "webpack --watch --config config/webpack.config.js"
   },
   "repository": {
     "type": "git",

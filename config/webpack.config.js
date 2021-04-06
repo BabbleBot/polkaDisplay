@@ -5,12 +5,19 @@ const resolve = relativePath => path.resolve(__dirname, '..', relativePath);
 module.exports = {
 	mode: 'development',
 	entry: {
-		app: resolve('src/js/app.js'),
-		bookmarklet: resolve('src/js/bookmarklet.js'),
+		'app': resolve('src/js/app.js'),
 	},
 	output: {
 		filename: '[name].min.js',
-		path: resolve('public/js'),
+		path: resolve('public'),
+	},
+	resolve: {
+		alias: {
+			'@vue$': 'vue/dist/vue.esm.js',
+			'@css': '/src/css',
+			'@js': '/src/js',
+		},
+		extensions: ['*', '.vue', '.js', '.json'],
 	},
 	module: {
 		rules: [{
@@ -36,6 +43,21 @@ module.exports = {
 					resolve('node_modules/webpack-dev-server/client'),
 				],
 			},
+			{
+				test: /\.s[ac]ss$/i,
+        use: [
+          "style-loader",
+          "css-loader",
+          "sass-loader",
+        ],
+			},
+			{
+				test: /\.css$/i,
+        use: [
+          "style-loader",
+          "css-loader",
+        ],
+			},
 		],
 	},
 	// watch: true,
@@ -55,13 +77,11 @@ module.exports = {
 		// watchContentBase: true,
 		writeToDisk: true,
 	},
-	plugins: [],
-	resolve: {
-		alias: {
-			'vue$': 'vue/dist/vue.esm.js',
-		},
-		extensions: ['*', '.vue', '.js', '.json'],
-	},
+	plugins: [
+		new webpack.ProvidePlugin({
+			axios: 'axios',
+		}),
+	],
 	performance: {
 		hints: false,
 	},

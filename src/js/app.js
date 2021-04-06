@@ -1,13 +1,11 @@
-import Vue from 'vue';
+import Vue from '@vue';
 
-// const files = require.context('./components', false, /\.vue$/)
-// const modules = {}
-// require.context('./components', false, /\.vue$/).keys().forEach((key) => {
-//      modules[key.replace(/(\.\/|\.vue)/g, '')] = files(key)
-// })
+import 'normalize.css';
+import '@css/style.scss';
 
-import polkamonCard from './components/polkamonCard.vue';
-Vue.component('polkamonCard', polkamonCard);
+// Dynamically load every components (.vue files) in ./components directory
+const files = require.context('@js/components', false, /\.vue$/)
+files.keys().forEach((key) => { Vue.component(key.match(/(\w+)(\.vue)/)[1], files(key).default); })
 
 var app = new Vue({
   el: '#app',
