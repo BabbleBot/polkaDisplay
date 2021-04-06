@@ -6,7 +6,10 @@ Once PolkaDisplay, this project is being remade, bigger and better, to become Po
 
 # polkaSort
 
- --
+To work on the project:
+ - npm install
+ - npm run serve
+ -> server served on localhost:8080
 
 (Kept for reference)
 # polkaDisplay
