@@ -2,7 +2,7 @@ This project has been created and developped in association with [cryptoleszto](
 Its development [has been approve](https://twitter.com/CLeszto/status/1378754544071499781) by Lennart Brandt, then Co-Founder & Chief Marketing Officer of the Polkamon project
 
 
-Once PolkaDisplay, this project is being remade, bigger and better, to become PolkaSort! A full website to visualize and easily manage your collection of polkamon!
+Once known as PolkaDisplay, this project is being remade, bigger and better, to become PolkaSort! A full website to visualize and easily manage your collection of polkamon!
 
 # polkaSort
 
