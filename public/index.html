@@ -10,8 +10,8 @@
     <title></title>
     <!-- <meta name="description" content=""> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" type="text/css" href="public/css/style.css"> -->
-    <!-- <script src="js/vue.min.js"></script> -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -19,13 +19,15 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div id="app">
-      <polkamon-card></polkamon-card>
+      <v-header></v-header>
+
+      <polkamon-list></polkamon-list>
     </div>
 
 
     <!-- <div class="table"></div>
     <polkamonCard v-for=></polkamonCard> -->
 
-    <script src="js/app.min.js"></script>
+    <script src="app.min.js"></script>
   </body>
 </html>
